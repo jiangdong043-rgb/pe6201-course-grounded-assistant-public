@@ -1,0 +1,110 @@
+{
+  "review_type": "AI-assisted, unblinded, post-hoc strict completeness and page-citation audit",
+  "human_review_completed": false,
+  "api_calls_made": 0,
+  "original_experiment_files_modified": false,
+  "overall": {
+    "raw": {
+      "reviewed": 40,
+      "strict_completeness_score": 3,
+      "page_citation_support_score": 0,
+      "strict_complete_and_cited": 0,
+      "original_answer_score": 9,
+      "original_citation_score": 0,
+      "model_abstained_flags": 28,
+      "text_withholding_or_missing_info": 26,
+      "safe_missing_info_handling": 2,
+      "withholding_on_answerable_cases": 24
+    },
+    "rag": {
+      "reviewed": 40,
+      "strict_completeness_score": 23,
+      "page_citation_support_score": 29,
+      "strict_complete_and_cited": 22,
+      "original_answer_score": 30,
+      "original_citation_score": 30,
+      "model_abstained_flags": 0,
+      "text_withholding_or_missing_info": 1,
+      "safe_missing_info_handling": 1,
+      "withholding_on_answerable_cases": 0
+    }
+  },
+  "by_category": {
+    "raw": {
+      "requirements": {
+        "reviewed": 10,
+        "strict_completeness_score": 1,
+        "page_citation_support_score": 0,
+        "strict_complete_and_cited": 0,
+        "original_answer_score": 1,
+        "original_citation_score": 0
+      },
+      "deadlines": {
+        "reviewed": 10,
+        "strict_completeness_score": 0,
+        "page_citation_support_score": 0,
+        "strict_complete_and_cited": 0,
+        "original_answer_score": 1,
+        "original_citation_score": 0
+      },
+      "submission_information": {
+        "reviewed": 10,
+        "strict_completeness_score": 0,
+        "page_citation_support_score": 0,
+        "strict_complete_and_cited": 0,
+        "original_answer_score": 2,
+        "original_citation_score": 0
+      },
+      "concepts": {
+        "reviewed": 10,
+        "strict_completeness_score": 2,
+        "page_citation_support_score": 0,
+        "strict_complete_and_cited": 0,
+        "original_answer_score": 5,
+        "original_citation_score": 0
+      }
+    },
+    "rag": {
+      "requirements": {
+        "reviewed": 10,
+        "strict_completeness_score": 9,
+        "page_citation_support_score": 9,
+        "strict_complete_and_cited": 9,
+        "original_answer_score": 9,
+        "original_citation_score": 9
+      },
+      "deadlines": {
+        "reviewed": 10,
+        "strict_completeness_score": 3,
+        "page_citation_support_score": 6,
+        "strict_complete_and_cited": 3,
+        "original_answer_score": 5,
+        "original_citation_score": 6
+      },
+      "submission_information": {
+        "reviewed": 10,
+        "strict_completeness_score": 5,
+        "page_citation_support_score": 6,
+        "strict_complete_and_cited": 4,
+        "original_answer_score": 7,
+        "original_citation_score": 6
+      },
+      "concepts": {
+        "reviewed": 10,
+        "strict_completeness_score": 6,
+        "page_citation_support_score": 8,
+        "strict_complete_and_cited": 6,
+        "original_answer_score": 9,
+        "original_citation_score": 9
+      }
+    }
+  },
+  "limitations": [
+    "The reviewer is AI, has seen the original scores and model conditions, and is not an independent blinded human assessor.",
+    "Strict full coverage operationalizes every frozen required_fact after observing results; this is an additional audit, not a preregistered replacement or a new model run.",
+    "Some required_facts ask for more detail than the natural-language question. Incompleteness must not be called a factual error.",
+    "Citation support concerns the cited page/document as a whole, not a full claim-to-retrieved-chunk entailment score.",
+    "Missing-information handling in SUB-10 can be a correct yes/no answer rather than an abstention; flag/text discrepancies depend on the operational definition.",
+    "No human reference labels exist, so judge precision/recall against human labels cannot be calculated."
+  ]
+}

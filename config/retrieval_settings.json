@@ -1,0 +1,10 @@
+{
+  "selected_retriever": "semantic",
+  "embedding_model": "BAAI/bge-small-en-v1.5",
+  "chunks": "data/processed/chunks_700.jsonl",
+  "embedding_cache": "data/processed/bge_small_embeddings_700.npz",
+  "chunk_size_characters": 700,
+  "chunk_overlap_characters": 100,
+  "top_k": 5,
+  "selection_basis": "Best recall@5 and MRR on the 12-question development set; the 40 final questions were not used for selection."
+}

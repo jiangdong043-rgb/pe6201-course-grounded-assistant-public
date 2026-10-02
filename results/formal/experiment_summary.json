@@ -1,0 +1,28 @@
+{
+  "model": "openai/gpt-4o-mini",
+  "price_checked_on": "2026-09-28",
+  "conditions": {
+    "raw": {
+      "calls": 40,
+      "prompt_tokens": 5401,
+      "completion_tokens": 2067,
+      "total_cost_usd": 0.00205035,
+      "average_cost_per_question_usd": 5.1258749999999994e-05,
+      "projected_cost_per_1000_questions_usd": 0.05125874999999999,
+      "average_latency_seconds": 1.5428383,
+      "p95_latency_seconds": 2.430872,
+      "abstentions": 28
+    },
+    "rag": {
+      "calls": 40,
+      "prompt_tokens": 41596,
+      "completion_tokens": 2827,
+      "total_cost_usd": 0.0079356,
+      "average_cost_per_question_usd": 0.00019838999999999998,
+      "projected_cost_per_1000_questions_usd": 0.19838999999999998,
+      "average_latency_seconds": 1.5025675,
+      "p95_latency_seconds": 2.396554,
+      "abstentions": 0
+    }
+  }
+}

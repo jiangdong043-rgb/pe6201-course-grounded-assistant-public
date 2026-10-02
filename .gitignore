@@ -1,0 +1,12 @@
+.env
+.env.*
+.venv/
+__pycache__/
+*.py[cod]
+sources/private/
+data/
+*.npz
+*.mp4
+*.zip
+*.pdf
+*.docx
